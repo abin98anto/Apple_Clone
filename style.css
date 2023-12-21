@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* a:hover {
+    border-bottom: 1px solid ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 48px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;;
+    background-color: white;
+}
+/* @font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  } */
+#header {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(30px); */
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#header li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#offer {
+    background-color: #333333;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+}
+#offer p {
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#ip15 {
+    background-color: black;
+    padding: 0;
+    /* height: 200px; */
+    color: white;
+}
+#ip15 h1{
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+#ip15 p{
+    padding: 0;
+    margin: 0;
+}
+#ip15 a {
+    text-decoration: none;
+}
+
+#ip15 ul {
+    list-style: none;
+}
+#ip15 li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#ip15 a {
+    color: deepskyblue;
+}
+
+#ip15-image{
+    background-color: black;
+
+}
+#ip15 img {
+    /* margin-top: 190px; */
+    margin-left: 450px;
+    align-self: center;
+}
+
+#ip15-text {
+    background-color: black;
+    /* position: fixed; */
+    margin-left: 700px;
+    padding-top: 50px;
+    /* margin-top: 80px; */
+}
+
+#ip15-text h1{
+    margin-left: 50px;
+}
+
+#ip15-text p{
+    font-size: 30px;
+}
+#ip15-text ul {
+    margin-left: 100px;
+}
+
+#ip15b {
+    background-color: white;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ip15b h1{
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    margin-left: 100px;
+}
+#ip15b p{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+#ip15b a {
+    text-decoration: none;
+}
+
+#ip15b ul {
+    list-style: none;
+}
+#ip15b li{
+    display: inline-block;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+#ip15b img{
+    margin-left: 225px;
+}
+#ip15b-text {
+    color: black;
+    background-color: white;
+    /* position: fixed; */
+    margin-left: 700px;
+    padding-top: 50px;
+    /* margin-top: 80px; */
+}
+#ip15b a {
+    color: deepskyblue;
+}
+
+#videoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    /* width:100%; max-width:1200px; margin:auto; display:block; position: relative; */
+    /* background-color: red; */
+    width: 100%;
+    padding: 100px 0px;
+    /* padding-top: 50px; */
+    /* padding-bottom: 10px; */
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+#videoDiv-text {
+    margin-top: 300px;
+    /* background-color: black; */
+    /* margin-left: 700px; */
+    /* margin-bottom: 30px; */
+    /* opacity: 0.5;               Good browsers */
+}
+#videoDiv-text p {
+    padding-left: 100px;
+}
+#videoDiv-text h1 {
+    padding-left: 90px;
+}
+#button1 {
+    margin-left: 110px;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+#button2 {
+    margin-left: 20px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.background-clips{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#gridBox{
+    height: 500px;
+    width: 99%;
+    margin-left: 0.5%;
+    margin-bottom: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 99% 99%;
+    /* gap: 10px ; */
+    
+}
+
+#box {
+    background-color: red;
+    /* padding-left: 200px; */
+    /* height: 50px;
+    width: 50px; */
+    /* display: grid; */
+    margin: 5px;
+}
+
+#beforeImg {
+    /* margin-left: 35%; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: grid;
+    gap: 10px;
+
+}
+#beforeImg a {
+    padding-left: 70px;
+    margin-left: 35%;
+    color: deepskyblue;
+    text-decoration: none;
+}
+#beforeImg h1 {
+    font-size: 40px;
+    margin-left: 30%;
+}
+#subtext{
+    margin-left: 34%;
+}
+
+#box img {
+    margin-left: 30%;
+    margin-bottom: 10%;
+    height: 300px;
+}
+
+#box2 {
+    background-color: white;
+    /* padding-left: 200px; */
+    /* height: 50px;
+    width: 50px; */
+    /* display: grid; */
+    margin: 5px;
+}
+
+#box2 img {
+    margin-left: 30%;
+    margin-bottom: 10%;
+    height: 300px;
+}
+
+#box2 h1 {
+    margin-left: 35%;
+}
+#box2 #subtext {
+    margin-left: 38%;
+}
+#box2 #link {
+    margin-left: 5%;
+}
+
+/* -------------------------------------------- */
+
+#gridBox2{
+    height: 500px;
+    width: 99%;
+    margin-left: 0.5%;
+    margin-bottom: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 99% 99%;
+    /* gap: 10px ; */
+    
+}
+
+#box3 {
+    background-color: red;
+    /* padding-left: 200px; */
+    /* height: 50px;
+    width: 50px; */
+    /* display: grid; */
+    margin: 5px;
+}
+
+#subtext4 {
+    color: white;
+    margin-left: 330px;
+}
+
+#name4 {
+    color: white;
+    margin-left: 5%;
+}
+
+#box3 {
+    background-color: red;
+    /* padding-left: 200px; */
+    /* height: 50px;
+    width: 50px; */
+    /* display: grid; */
+    color: white;
+    margin: 5px;
+}
+
+#box3 img {
+    margin-left: 200px;
+    height: 250px;
+    width: 500px;
+}
+
+/* #box3 #subtext {
+    margin-left: 38%;
+} */
+
+#link3 ul {
+    padding: 0;
+    margin-left: 38%;
+    display: flex;
+    list-style: none;
+}
+/* #link li {
+    margin-left: 0px;
+} */
+#link3 a {
+    padding: 0;
+    margin: 0;
+}
+#b3buy {
+    margin-left: 30px;
+}
+
+#link34 ul {
+    padding: 0;
+    margin-left: 38%;
+    display: flex;
+    list-style: none;
+}
+/* #link li {
+    margin-left: 0px;
+} */
+#link34 a {
+    padding: 0;
+    margin: 0;
+}
+#image4 img {
+    margin-left: 150px;
+}
+
+#image5 img {
+    margin-left: 70px;
+}
+
+#link5 #trade {
+    padding: 0px;
+    margin-left: 360px;
+    color: deepskyblue;
+    text-decoration: none; 
+}
+
+/* ---------------------------------------------------------------------------- */
+
+#footer {
+    background-color: whitesmoke;
+    font-size: 15px;
+    width: 100%;
+    height: 900px;
+    /* padding-left: 300px; */
+    /* padding-right: 300px; */
+}
+
+#footer ul, li {
+    list-style: none;
+    padding: 5px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#footer .terms {
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+}
+
+#footer #linkSection {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#section #boHe {
+    padding-top: 50px;
+}
+
+#footer #justBefore {
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+#footer #justBefore a {
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+#theEnd {
+    display: flex;
+}
+#links {
+    display: flex;
+}
+
+
+#footer #lastlist {
+    margin-left: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+#copyright {
+    padding-top: 10px;
+    margin-left: 400px;
+}
